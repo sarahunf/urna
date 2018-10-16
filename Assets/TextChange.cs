@@ -111,6 +111,7 @@ public class TextChange : MonoBehaviour
 		PlayerPrefs.DeleteKey ("votoBozo");
 		PlayerPrefs.DeleteKey ("prsnBozo");
 		PlayerPrefs.DeleteKey ("balaoBozo");
+		PlayerPrefs.DeleteKey ("tutorialDone");
 	}
 
 	public void VotoBozo ()
@@ -125,7 +126,7 @@ public class TextChange : MonoBehaviour
 			bozoTxt.text = "Cê não tem vergonha não?";
 			break;
 		case 2:
-			bozoTxt.text = "Não pode fingir depois que não votou em mim hein?";
+			bozoTxt.text = "Depois não pode fingir que não votou em mim hein?";
 			break;
 		case 3:
 			bozoTxt.text = "Nossa, cruzes.";
@@ -269,7 +270,7 @@ public class TextChange : MonoBehaviour
 			balaoText.text = "Trabalhador rural? Tenho uma nova carteira pra você, hein? A cateira que eu faço o que quiser e você obedece! HAHA. Vai é trabalhar todo dia.";
 			break;
 		case 7:
-			balaoText.text = "Vou colocar só bruxão nos ministério hein? Bruxão do tiro na sua cara.";
+			balaoText.text = "Vou colocar só bruxão nos ministério hein? Bruxão do medo.";
 			break;
 		case 8:
 			balaoText.text = "Vou derrubar o nordeste, a amazônia e se encher muito o saco, derrubo a ONU." ;
