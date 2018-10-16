@@ -1,3 +1,3 @@
 # urna
 urna (randominess)
-sem finais políticos.
+sem fins políticos.
