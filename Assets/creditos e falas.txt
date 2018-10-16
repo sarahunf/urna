@@ -1,0 +1,184 @@
+credito do autor balaozinho
+<a href='https://br.freepik.com/vetores-gratis/tipos-de-baloes-de-fala_944913.htm'>Designed by Freepik</a>
+maozinha da democracia
+<a href='https://br.freepik.com/fotos-gratis/cortar-as-maos-fazendo-o-gesto-do-coracao_1545548.htm'>Designed by Freepik</a>
+<a href='https://br.freepik.com/vetores-gratis/fundo-de-maos-brancas-com-coracoes-vermelhos_894053.htm'>Designed by Freepik</a>
+
+Sequencia baloes:
+Darth Vader
+"Ops! Esse não é seu candidato? Tente corrigir seu voto."
+
+Arthurito
+"Está errado de novo? Corrija seu voto."
+
+Sharpey Evan
+"Hm...Também não estou entendendo. Tente corrigir seu voto."
+
+Joffrey Baratheon
+"Ok, ok. Vote com carinho agora. Corrija seu voto."
+
+Nazare Tedesco
+"Peço desculpas, fui incapaz de computar o seu voto. Corrija e tente novamente."
+
+Eustacio Bagge
+"Uau, acho que estou um pouco democratica de mais hoje. Mas vamos mais um vez, corrija seu voto."
+
+Agatha Trunchbull
+"Você está digitando certo mesmo? Cheque sua colinha e tente novamente."
+
+Scar
+"Estou começando a achar que meu botão está emperrado... Por favor, corrija seu voto e tente novamente."
+
+Cal Hockley
+"Entendi! Acho que dessa vez vai dar certo! Corrija seu voto e tente novamente."
+
+Cruela De Vil
+"Perdi o interesse por um segundo. Corrija sue voto e tente novamente."
+
+Cersei Lannister
+"Estou começando a achar que o erro não está em mim... Mesmo assim, corrija e tente novamente."
+
+Dona Florinda
+"Se você está certo(a) de que esse é o seu canditado pressione "corrigir" e tente novamente. Você pode clicar em "confirma" também"
+
+Draco Malfoy
+"Ok, vamos parar de brincadeira. Corrija seu voto e tente novamente."
+
+Ken Carson
+"Puts, não deu pra mim. Vou chamar outro encarregado, tente corrigir e digitar novamente."
+
+Senhorita Morello
+"Sou eu de novo, kk. Minha casa, minha vida, mas corrija seu voto e tente mais uma vez."
+
+Lorde Voldemort
+"É... Não tá fácil não, né? Mas você é brasileiro e não desiste nunca! Corrija seu voto e tente novamente."
+
+Thanos
+"Você está participando ativamente do futuro do seu país, pense um pouco e tente mais uma vez."
+
+X
+ "Estou cansando agora, talvez dê certo se você tentar novamente."
+
+
+
+
+Se a pessoa confirmar  o voto
+
+Darth Vader
+"Esse candidato defende o aumento do imposto de renda dos pobres... Você sabia disso?"
+
+Arthurito
+"Esse candidato apresentou três projetos ligados a econômia durante 30 anos de política. 1 a cada 10 anos está bom pra você?"
+
+Sharpey Evan
+"Esse candidato votou a favor da terceirização e da PEC que congela investimentos. Ruim para todas as classes, não é mesmo?"
+
+Joffrey Baratheon
+"Em entrevista, esse candidato afirmou que 'Mulher deve ganhar salário menor porque engravida. Quando ela voltar [da licença-maternidade], vai ter mais um mês de férias, ou seja, trabalhou cinco meses em um ano. '(Em entrevista ao jornal Zero Hora, em fevereiro de 2015.) Incabível, não? "
+
+Nazare Tedesco
+"'Desaparecidos do Araguaia? Quem procura osso é cachorro.' (Para familiares de desaparecidos na ditadura, em cartaz anexado na entrada de seu gabinete na Câmara dos Deputados, em maio de 2009). É outra frase que mostra a índole do candidato."
+
+Eustacio Bagge
+"Esse candidato diz que o Estatuto da Criança e do Adolescente (ECA) 'tem que ser rasgado e jogado na latrina. É um estímulo à vagabundagem e à malandragem infantil'. Preciso comentar?"
+
+Agatha Trunchbull
+"Esse candidato quer criar uma nova carteira de trabalho para o trabalhador rural. 'O homem do campo não pode parar no Carnaval, sábado, domingo e feriado. A planta ali vai estragar'. O + sabido da agricultura."
+
+Scar
+"Esse candidato pretende cortar ministérios e nomear pelo menos 5 generais como ministros... Se isso não é flertar com a ditadura militar não sei mais o que pode ser."
+
+Cal Hockley
+"Você sabe da importância da ONU? Ela foi fundada na Conferência de São Francisco, no dia 24 de outubro de 1945, logo após o término da Segunda Guerra Mundial e é composta atualmente por 192 países. Seu maior objetivo é fomentar relações cordiais entre as naçõe e promover o progresso social, melhores padrões de vida e direitos humanos. Importante, não? Pois o candidato escolhido não é fã da organização, inclusive já a atacou publicamente. "
+
+Cruela De Vil
+"O candidato defende que o Brasil deixe o Acordo de Paris sobre o clima. Essa medida incabível deixa o Brasil, um país de vasta biodversidade, mais vulnerável a latifundiários e grandes proprietários de terra, nada de bom para você e para o país a médio-longo prazo. Nada bom mesmo."
+
+Cersei Lannister
+"O candidato pretende fundir os Ministérios da Agricultura e do Meio Ambiente, o que colocaria "um fim na indústria das multas, bem como leva harmonia ao campo". O ministro seria indicado "pelas entidades dos produtores". Gente do céu... Chama os coroneis de novo ai que voltamos pra 1900."
+
+Dona Florinda
+"O candidato defende a adoção da educação à distância no Ensino Fundamental, Médio e universitário, com aulas presenciais em provas ou aulas práticas, o que "ajuda a combater o marxismo". Combater marxismo brasileiro ou só destruir a formação do brasileiro?"
+
+Draco Malfoy
+"Em 2017 o candidato votou a favor da reforma trabalhista de temer, reforma que faz com que mulheres gravidas trabalhem em lugares insalubres, reduz o horário de almoço, impõe o trabalho intermitente e faz com que os trabalhadores paguem os custos dos advogados dos patrões em caso de processo judicial."
+
+Ken Carson
+"'Não vou combater nem discriminar, mas, se eu vir dois homens se beijando na rua, vou bater.' (Afirmação de Jair Bolsonaro após caçoar de FHC sobre este segurar uma bandeira com as cores do arco-íris). Umas das afirmações do candidato que claramente incentiva a homofobia em seus eleitores."
+
+Senhorita Morello
+"Esse candidato se ausentou na votação em primeiro turno da emenda que pune o trabalho escravo e se opôs a emenda que estendeu os direitos trabalhistas para empregados/as domésticos/as. É melhor jair se tocando que #eleNao dá né?"
+
+Lorde Voldemort
+"Seu economista de confiança é um serviçal do mercado financeiro, dos bancos e dos especuladores internacionais e sempre esteve ao lado dos capitalistas e dos exploradores. Você acha mesmo que ele está do seu lado? Não esqueça que seu Siena e apartamento no centro não fazem de você um milionário."
+
+Thanos
+"Resumo do canditado que você acabou de votar:
+O que ele quer oferecer aos trabalhadores e a juventude é salários miseráveis, empregos precarizados, retirada de direitos básicos, entrega do patrimônio público à especuladores, mais desigualdade social e repressão e violência contra a população pobre e negra. Será mesmo que o nordeste que não sabe o que faz?"
+
+
+X
+ "Esse candidato propõe reformular o Estatuto do Desarmamento para 'garantir o direito do cidadão à legítima defesa'. Ok, porque nos Estados Unidos a violência dimin... Darling, em 2017, 15.5 mil pessoas morreram por armas de fogo nos EUA. Enquanto aqui, no mesmo período, cerca de 70.2 mil pessoas morreram vítimas de armas de fogo no Brasil. 12% do total de registros em todo o planeta. Você acha mesmo que arma de fogo na mão de uma população descontrolada e desinformada vai mudar esse quadro?."
+
+
+
+ Balões Candidatos
+
+ 		case 0:
+			bozoTxt.text = "Muah ha ha ha, eu defendo o aumento do imposto de renda dos pobres...";
+			break;
+		case 1:
+			bozoTxt.text = "Apresentei três projetos ligados a econômia durante 30 anos de política." +
+					"1 a cada 10 anos está bom pra você?";
+			break;
+		case 2:
+			bozoTxt.text = "Inocente... Eu votei a favor da terceirização e da PEC que congela investimentos.";
+			break;
+		case 3:
+			bozoTxt.text = "Em entrevista, afirmei que mulheres devem ganhar menos porque engravidam.";
+			break;
+		case 4:
+			bozoTxt.text = "Ai, quero salvar o Brasil, mas 'Desaparecidos do Araguaia? Quem procura osso é cachorro.'";
+			break;
+		case 5:
+			bozoTxt.text = "Estatuto da Criança e do Adolescente(ECA)? Joga na latrina!" ;
+			break;
+		case 6:
+			bozoTxt.text = "Trabalhador rural? Tenho uma nova carteira pra você, hein? A cateira que eu faço o que quiser e você obedece! HAHA. Vai trabalhar todo dia, troxa.";
+			break;
+		case 7:
+			bozoTxt.text = "Vou colocar só bruxão nos ministério hein? Bruxão do tiro na sua cara.";
+			break;
+		case 8:
+			bozoTxt.text = "Vou derrubar o nordeste, a amazônia e se encher muito o saco, derrubo a ONU." ;
+			break;
+		case 9:
+			bozoTxt.text = "Acordo de Paris? HA HA HA HA. Eu quero mesmo é acabar com meu país!";
+			break;
+		case 10:
+			bozoTxt.text = "39 ministérios? Que piada, vamo juntar tudo, fazer uns 5 só e colocar uns coroneis lá, acho que vai dar certo sim." ;
+			break;
+		case 11:
+			bozoTxt.text = "Merenda e formação social? Mas pra que se dá pra ensinar tudo a distância? Povo não pensa, sabe.";
+			break;
+		case 12:
+			bozoTxt.text = "Ficou grávida e trabalha em condições insalubres? Poxa que pena, pra mim nasce ai no chão da fábrica mesmo.";
+			break;
+		case 13:
+			bozoTxt.text = "Homofobia tá na cabeça de vocês né gente, pode bater sim, vai que cresce igual homem." ;
+			break;
+		case 14:
+			bozoTxt.text = "Direto trabalhista? HAHA DEVERES trabalhistas né?";
+			break;
+		case 15:
+			bozoTxt.text = "Po, tenho um cara de confiança mesmo pra Economia, amigão dos grandes e pequenos ricos. Vai tá do lado do povo sempre.";
+			break;
+		case 16: 
+			bozoTxt.text = "Xiiiu, mas patrimônio público tem que tá é na mao dos especuladores! Ai sim a desigualdade aumenta!";
+			break;
+		case 17:
+			bozoTxt.text = "Pow pow pow!Já vai se acostumando com os barulho de tiro... ops, acertei uma testa";
+			break;
+		default:
+			bozoTxt.text = "ooo, inocente!";
+			break;
