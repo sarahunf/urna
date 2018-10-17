@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class TextChange : MonoBehaviour
 {
@@ -38,11 +39,48 @@ public class TextChange : MonoBehaviour
 	public GameObject partyParticle;
 	public GameObject horrorParticle;
 
+	public AudioSource partyAud;
+	public AudioSource horrorAud;
+
+	public Animation line1;
+	public Animation line2;
+	public GameObject line1Obj;
+	public GameObject line2Obj;
+
+	void Start () {
+		line1 = line1Obj.GetComponent<Animation> ();
+		line2 = line2Obj.GetComponent<Animation> ();
+	}
+
+	void Update () {
+		
+		if (string.IsNullOrEmpty (vote1.text)) {
+			line1Obj.SetActive (true);
+			line1.Play ();
+
+		} else if (string.IsNullOrEmpty (vote2.text)) {
+			line2Obj.SetActive (true);
+			line2.Play ();
+		} else {
+			line1Obj.SetActive (false);
+			line2Obj.SetActive (false);
+			line1.Stop ();
+			line2.Stop ();
+		}
+	}
 
 	public void FinishedVoting ()
 	{
-		voteInt1 = int.Parse (vote1.text);
-		voteInt2 = int.Parse (vote2.text);
+		if (string.IsNullOrEmpty (vote1.text)) {
+			voteInt1 = -1;
+		} else {
+			voteInt1 = int.Parse (vote1.text);
+		}
+		if (string.IsNullOrEmpty (vote2.text)) {
+			voteInt2 = -1;
+		} else {
+			voteInt2 = int.Parse (vote2.text);
+		}
 
 		if (voteInt1 == 1 && voteInt2 == 7) {
 			votandoNoBozo = true;
@@ -50,9 +88,11 @@ public class TextChange : MonoBehaviour
 			if (!checkingVote) {
 				BaloesDoBozo ();
 			}
+		} else if (voteInt1 == 1 && voteInt2 == 3) {
+			personagensBozo [17].SetActive (true);
 		} else {
+			
 			balaoMsg.SetActive (false);
-
 			for (int i = 0; i < personagensBozo.Length; i++) { 
 				personagensBozo [i].SetActive (false);
 			}
@@ -83,19 +123,30 @@ public class TextChange : MonoBehaviour
 		balaoMsg.SetActive (false);
 		balaoText.text = " ";
 
-		voteInt1 = int.Parse (vote1.text);
-		voteInt2 = int.Parse (vote2.text);
+
+		if (string.IsNullOrEmpty (vote1.text)) {
+			voteInt1 = -1;
+		} else {
+			voteInt1 = int.Parse (vote1.text);
+		}
+		if (string.IsNullOrEmpty (vote2.text)) {
+			voteInt2 = -1;
+		} else {
+			voteInt2 = int.Parse (vote2.text);
+		}
 
 		if (voteInt1 == 1 && voteInt2 == 3) {
 			haddadMsg.SetActive (true);
 
-			ParticleSystem psParty = partyParticle.GetComponent<ParticleSystem>();
+			ParticleSystem psParty = partyParticle.GetComponent<ParticleSystem> ();
 			psParty.Play ();
+			partyAud.Play ();
 
 		} else if (voteInt1 == 1 && voteInt2 == 7) {
 			
-			ParticleSystem psHorror = horrorParticle.GetComponent<ParticleSystem>();
+			ParticleSystem psHorror = horrorParticle.GetComponent<ParticleSystem> ();
 			psHorror.Play ();
+			horrorAud.Play ();
 
 			VotoBozo ();
 
@@ -112,6 +163,33 @@ public class TextChange : MonoBehaviour
 		PlayerPrefs.DeleteKey ("prsnBozo");
 		PlayerPrefs.DeleteKey ("balaoBozo");
 		PlayerPrefs.DeleteKey ("tutorialDone");
+	}
+
+	public void VotoEmBranco () {
+		
+			balaoMsg.SetActive (false);
+			balaoText.text = "";
+
+		vote1.text = "";
+		vote2.text = "";
+
+		filledNum = false;
+
+		votandoNoBozo = false;
+
+		checkingVote = false;
+
+		for (int i = 0; i < personagensBozo.Length; i++) { 
+			personagensBozo [i].SetActive (false);
+		}
+
+		ParticleSystem psHorror = horrorParticle.GetComponent<ParticleSystem>();
+		psHorror.Stop ();
+		ParticleSystem psParty = horrorParticle.GetComponent<ParticleSystem>();
+		psParty.Stop ();
+
+		segTurnoMsg.SetActive (true);
+		segTurnoTxt.text = "Que revolucionário votar em branco hein? Tente novamente.";
 	}
 
 	public void VotoBozo ()
@@ -312,8 +390,16 @@ public class TextChange : MonoBehaviour
 	public void RestartVote ()
 	{
 
-		voteInt1 = int.Parse (vote1.text);
-		voteInt2 = int.Parse (vote2.text);
+		if (string.IsNullOrEmpty (vote1.text)) {
+			voteInt1 = -1;
+		} else {
+			voteInt1 = int.Parse (vote1.text);
+		}
+		if (string.IsNullOrEmpty (vote2.text)) {
+			voteInt2 = -1;
+		} else {
+			voteInt2 = int.Parse (vote2.text);
+		}
 
 		if (voteInt1 == 1 && voteInt2 == 7) {
 
@@ -323,11 +409,11 @@ public class TextChange : MonoBehaviour
 			balao17++;
 			PlayerPrefs.SetInt ("balaoBozo", balao17);
 			balaoMsg.SetActive (false);
-			balaoText.text = " ";
+			balaoText.text = "";
 		
 		}
-		vote1.text = " ";
-		vote2.text = " ";
+		vote1.text = "";
+		vote2.text = "";
 
 		filledNum = false;
 
@@ -344,6 +430,10 @@ public class TextChange : MonoBehaviour
 		ParticleSystem psParty = horrorParticle.GetComponent<ParticleSystem>();
 		psParty.Stop ();
 
+	}
+
+	public void GoToMainMenu () {
+		SceneManager.LoadScene ("MainMenu");
 	}
 }
 

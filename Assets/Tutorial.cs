@@ -15,15 +15,20 @@ public class Tutorial : MonoBehaviour
 	public Text balaoTxt;
 	public GameObject[] tutObjs;
 
-	void Start () {
-		if (PlayerPrefs.HasKey("tutorialDone")) {
+	void Awake ()
+	{
+	//	GameObject.FindGameObjectWithTag ("music").GetComponent<Sounds> ().PlayMusic ();
+	}
+
+	void Start ()
+	{
+		if (PlayerPrefs.HasKey ("tutorialDone")) {
 			for (int i = 0; i < tutObjs.Length; i++) {
 				tutObjs [i].SetActive (false);
 			}
 		} else {
 			TutorialMessage ();
 		}
-	
 	}
 
 	void TutorialMessage ()

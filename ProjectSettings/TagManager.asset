@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - btCor
+  - bt8
+  - bt1
+  - bt6
+  - bt2
+  - bt7
+  - btBra
+  - btCon
+  - bt5
+  - bt4
+  - bt0
+  - bt9
+  - bt3
+  - music
   layers:
   - Default
   - TransparentFX

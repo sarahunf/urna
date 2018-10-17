@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 74b3f541596279a44a9f396c9b0e4695
-timeCreated: 1539552178
+timeCreated: 1539781211
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: balao_0
+    21300002: square
+    21300004: blackLIne
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -92,8 +94,36 @@ TextureImporter:
         width: 217
         height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 15, y: 75, z: 15, w: 15}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: square
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 74
+        width: 204
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 9, z: 8, w: 10}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blackLIne
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 130
+        width: 12
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
