@@ -26,6 +26,10 @@ public class TextChange : MonoBehaviour
 	public Text bozoTxt;
 	public Text segTurnoTxt;
 
+	public GameObject haddadBtn;
+	public GameObject bozoBnt;
+	public GameObject segTurnoBtn;
+
 	public int vote17;
 	public int prsn17;
 
@@ -137,6 +141,7 @@ public class TextChange : MonoBehaviour
 
 		if (voteInt1 == 1 && voteInt2 == 3) {
 			haddadMsg.SetActive (true);
+			haddadBtn.SetActive (true);
 
 			ParticleSystem psParty = partyParticle.GetComponent<ParticleSystem> ();
 			psParty.Play ();
@@ -153,6 +158,7 @@ public class TextChange : MonoBehaviour
 
 		} else {
 			segTurnoMsg.SetActive (true);
+			segTurnoBtn.SetActive (true);
 		}
 
 	}
@@ -189,6 +195,7 @@ public class TextChange : MonoBehaviour
 		psParty.Stop ();
 
 		segTurnoMsg.SetActive (true);
+		segTurnoBtn.SetActive (true);
 		segTurnoTxt.text = "Que revolucionário votar em branco hein? Tente novamente.";
 	}
 
@@ -218,6 +225,7 @@ public class TextChange : MonoBehaviour
 		}
 
 		bozoMsg.SetActive (true);
+		bozoBnt.SetActive (true);
 
 		vote17++;
 		PlayerPrefs.SetInt ("votoBozo", vote17);
@@ -299,10 +307,6 @@ public class TextChange : MonoBehaviour
 			personagensBozo [16].SetActive (true);
 			personagensBozo [15].SetActive (false);
 			break;
-		case 17:
-			personagensBozo [17].SetActive (true);
-			personagensBozo [16].SetActive (false);
-			break;
 
 		default:
 			for (int i = 0; i < personagensBozo.Length; i++) {               
@@ -366,7 +370,7 @@ public class TextChange : MonoBehaviour
 			balaoText.text = "Ficou grávida e trabalha em condições insalubres? Poxa que pena, pra mim nasce ai no chão da fábrica mesmo.";
 			break;
 		case 13:
-			balaoText.text = "Homofobia tá na cabeça de vocês né gente, pode bater sim, vai que cresce igual homem." ;
+			balaoText.text = "O filho começa a ficar assim meio gayzinho, leva um coro, muda o comportamento dele, tá certo?" ;
 			break;
 		case 14:
 			balaoText.text = "Direto trabalhista? HAHA DEVERES trabalhistas né?";
